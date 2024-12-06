@@ -24,6 +24,5 @@ static_root
 config/local_settings.py
 dev
 test.env
-local_settings.py
 __pycache__
 

@@ -13,8 +13,9 @@ specific language governing permissions and limitations under the License.
 
 from django.contrib import admin
 
-from home_application.models import BackupRecord
+from home_application.models import BackupRecord, ApiRequestCount
 
 # Register your models here.
 
 admin.site.register(BackupRecord)
+admin.site.register(ApiRequestCount)
